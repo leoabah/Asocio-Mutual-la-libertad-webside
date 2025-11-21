@@ -44,20 +44,37 @@ body {
     text-align: center;
 }
 .header-container nav ul a:hover {
-    background-color: rgb(154, 241, 23);
+    background-color: rgb(98, 159, 6);
     color: whitesmoke;
-    border: 1px;
-    border-radius: 15px;
-    padding: 10px;
+    /* border: 1px;
+    border-radius: 15px;*/
+    padding: 30px 30px;
+}
+.btn-socio { 
+    margin: 10px 10px 10px 30px;
+    background-color: rgb(75, 75, 246);
+    border: solid;
+    border-radius: 10px;
+    padding: 0 50px;
+}
+.btn-socio:hover {
+    background-color: rgb(2, 9, 218);
+}
+.btn-socio a {
+    color: white;
+    text-decoration: none;
+  
 }
 .button-header{
     background-color: rgb(130, 197, 30);
-    color: rgb(255, 255, 255);
-    border: 1px;
-    border-radius: 20px ;
-    margin: 10px 30px 10px 30px;
-    padding-left: 25px;
-    padding-right: 25px;
+    border:solid;
+    border-color: black;
+    border-radius: 10px ;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 40px;
+}
+.button-header:hover {
+    background-color: rgb(1, 129, 1);
 }
 .button-header a{
     text-decoration: none;
@@ -67,7 +84,7 @@ body {
      display: flex;
      background-color: rgb(29, 205, 29);
      color: azure;
-     border: 1px;
+     /* border: 1px;*/
      border-radius: 16px;
      padding: 18px 60px;
      margin: 40px 0 0 160px;
@@ -93,15 +110,12 @@ body {
     width: 100wh;
     padding:0;
     margin: 0;
-    }
+}
  .section-header div {
     display:flex;
-
     margin: 0;
-    padding:0;
-    
-    
- }   
+    padding:0; 
+}   
  .section-header div p {
     text-align: center;
     font-size:46px;
@@ -121,7 +135,7 @@ body {
     display: block;
     width: 300px;
     height: 200px;
-    border: 4px;
+    border: 2px solid;
     border-radius: 8px;
     background-color: rgb(41, 41, 235); 
  }
@@ -141,7 +155,7 @@ body {
     display: block;
     width: 300px;
     height: 200px;
-    border: 2px;
+    border: 2px solid;
     border-radius: 8px;
     background-color:rgb(41, 41, 235);
 }
@@ -155,7 +169,7 @@ body {
     display: block;
     width: 300px;
     height: 200px;
-    border: 2px;px;
+    border: 2px solid;
     border-radius: 8px;
     background-color:rgb(41, 41, 235);   
 }
